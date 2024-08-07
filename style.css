@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(241, 100%, 89%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.cantainer{
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+.first{
+    width: 300px;
+    background-color: hsl(252, 100%, 67%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 38px;
+   
+
+}
+.first p{
+    color: hsl(241, 100%, 89%);
+
+}
+.res{
+    margin-bottom: 20px;
+}
+.first h3{
+    color:hsl(0, 0%, 100%);
+    font-size: 24px;
+    padding: 10px;
+}
+.middle{
+    width: 55%;
+    margin: 0 auto;
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    padding: 20px;
+}
+.middle h4{
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.second{
+    width: 300px;
+    padding: 19px;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+.second .sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+}
+.sec img{
+    margin-right: 8px;
+
+}
+.bottom{
+    font-size: 20px;
+    padding: 10px;
+    background-color: hsl(224, 30%, 27%);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+}
+strong{
+    color: hsl(224, 30%, 27%);
+}
+.hundred{
+    color:hsl(241, 100%, 89%) ;
+}
+.reaction{
+    background-color: hsl(0, 100%, 95%);
+    color: hsl(0, 100%, 56%);
+    border-radius: 8px;
+}
+.memory{
+    background-color: hsl(39, 100%, 95%);
+    color: hsl(39, 100%, 56%);
+    border-radius: 8px;
+}
+.verbal{
+    background-color: hsl(166, 100%, 95%);
+    color: hsl(166, 100%, 37%);
+    border-radius: 8px;
+}
+.visual{
+    background-color:hsl(234, 85%, 95%) ;
+    color: hsl(234, 85%, 45%);
+    border-radius: 8px;
+}
